@@ -1,0 +1,23 @@
+                        TO INSTALL GCC
+
+sudo apt-get install build-essential manpages-dev
+
+                        VERIFY INSTALLATION
+whereis gcc
+which gcc
+gcc --version
+
+                        TO COMPILE
+
+make executable-file-name
+    ## assuming that executable-file-name.c exist ##
+//
+
+gcc file-name.c  -o file-name
+
+                        TO RUN
+
+./file-name
+    ## if you in directory##
+
+/path/to/file
